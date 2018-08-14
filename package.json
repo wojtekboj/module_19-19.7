@@ -1,0 +1,19 @@
+{
+  "name": "19.7",
+  "version": "1.0.0",
+  "description": "\"Zadanie 19.7\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojtekboj/module_19-19.7.git"
+  },
+  "author": "Wojciech Bojarczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojtekboj/module_19-19.7/issues"
+  },
+  "homepage": "https://github.com/wojtekboj/module_19-19.7#readme"
+}
