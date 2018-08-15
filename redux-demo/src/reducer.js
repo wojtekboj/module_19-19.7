@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import comments from './Comments.js';
-import users from './users.js';
+import comments from './comments';
+import users from './users';
 
 const reducer = combineReducers({
     comments,
