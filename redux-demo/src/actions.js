@@ -1,4 +1,4 @@
-import {v4} from 'uuid';
+var uuid = require('uuid-v4');
 
 export const ADD_COMMENT = 'ADD_COMMENT';
 export const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
@@ -7,7 +7,7 @@ export const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 function addComment(text) {
     return {
         type: ADD_COMMENT,
-        id: v4(),
+        id: uuid(),
         text: text
     };
 }
